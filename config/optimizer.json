@@ -1,0 +1,11 @@
+{
+  "enable_overlay": true,
+  "enable_fps_unlock": true,
+  "enable_netgraph_tweak": false,
+  "enable_skin_preload": true,
+  "safe_mode": false,
+  "forced_fps_cap": 240,
+  "target_latency_ms": 8,
+  "preferred_gpu": "auto",
+  "offsets_revision": "2026.02-b13982"
+}
