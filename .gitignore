@@ -1,0 +1,53 @@
+# Build outputs
+build/
+out/
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Visual Studio / MSBuild
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+
+# Configs with local tweaks
+config/local.json
+config/*.private.json
+profiles/*.custom.cfg
+
+# Logs & dumps
+*.log
+logs/
+dumps/
+*.dmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+Thumbs.db
+desktop.ini
