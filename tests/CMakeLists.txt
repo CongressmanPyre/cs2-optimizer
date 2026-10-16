@@ -1,0 +1,8 @@
+add_executable(frame_profiler_test frame_profiler_test.cpp)
+target_link_libraries(frame_profiler_test PRIVATE cs2opt_services)
+add_test(NAME frame_profiler COMMAND frame_profiler_test)
+
+add_executable(optimizer_service_test optimizer_service_test.cpp)
+target_link_libraries(optimizer_service_test PRIVATE
+  cs2opt_services cs2opt_platform)
+add_test(NAME optimizer_service COMMAND optimizer_service_test)
