@@ -1,0 +1,13 @@
+{
+  "offsets_revision": "2026.02-b13982",
+  "client_build": "13982",
+  "netvars": {
+    "m_iFpsMax": "0x1A4C",
+    "m_flLatencyHint": "0x1A50",
+    "m_bIsInMatch": "0x2E10"
+  },
+  "signatures": {
+    "PresentHook": "48 89 5C 24 ?? 57 48 83 EC 20 48 8B D9",
+    "FrameStage": "40 53 48 83 EC 20 8B D9 E8 ?? ?? ?? ??"
+  }
+}
