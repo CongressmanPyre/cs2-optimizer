@@ -1,0 +1,7 @@
+{
+  "de_mirage": { "target_fps": 300 },
+  "de_dust2":  { "target_fps": 300 },
+  "de_inferno":{ "target_fps": 280 },
+  "de_ancient":{ "target_fps": 260 },
+  "de_nuke":   { "target_fps": 260 }
+}
